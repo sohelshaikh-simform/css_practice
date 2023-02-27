@@ -1,0 +1,30 @@
+
+
+a:link{
+    color: blue;
+
+}
+a:visited{
+    color:#00FF00;
+}
+a:hover{
+    color: #FF0000;
+}
+a:active{
+    color: yellow;
+}
+
+
+
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 3s,height 3s,transform 2s;
+}
+div:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
